@@ -4,7 +4,7 @@
  * f_pop - Pops the elements from the stack
  * @head: A double pointer to a stack
  * @counter: Pointer to a line number.
- * Return: no return (void)
+ * Return: no return
  */
 void f_pop(stack_t **head, unsigned int counter)
 {
