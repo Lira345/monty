@@ -17,7 +17,7 @@ void f_sub(stack_t **head, unsigned int counter)
 		temp = temp->next;
 	if (size < 2)
 	{
-		fprintf(stderr, "L%d: Stack short, can't sub\n", counter);
+		fprintf(stderr, "L%d: can't sub, stack too short\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
